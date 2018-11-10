@@ -19,6 +19,10 @@ do
   sleep 2s
 done
 
+echo "[quick_start.sh] Starting gitlab docker"
+./start_gitlab_docker.sh
+
+## DEPRECIATED?
 #start frontend react app
 echo "[quick_start.sh] Starting frontend react app"
 ./start_frontend.sh
